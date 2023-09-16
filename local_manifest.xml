@@ -2,9 +2,9 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/vayu" name="GXC2356/android_device_xiaomi_vayu-reloaded.git" remote="github" revision="tokui" />
- <project path="vendor/xiaomi/vayu" name="p404-vayu/android_vendor_xiaomi_vayu.git" remote="github" revision="tokui" />
- <project path="kernel/xiaomi/vayu" name="p404-vayu/android_kernel_xiaomi_vayu.git" remote="github" revision="tokui" />
+ <project path="device/xiaomi/vayu" name="GXC2356/android_device_xiaomi_vayu.git" remote="github" revision="reloaded" />
+ <project path="vendor/xiaomi/vayu" name="GXC2356/android_vendor_xiaomi_vayu.git" remote="github" revision="reloaded" />
+ <project path="kernel/xiaomi/sm8150" name="raghavt20/kernel_sm8150" remote="github" revision="topaz-new" />
 
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-20" />
