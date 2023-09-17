@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Remotes -->
+	<remote name="home" fetch="https://github.com/GXC2356" />
+
+	<remote name="home_lab" fetch="https://gitlab.com/gxcdev2356"/>
+ 
  <!-- Trees -->
- <project path="device/xiaomi/vayu" name="GXC2356/android_device_xiaomi_vayu.git" remote="github" revision="reloaded" />
- <project path="vendor/xiaomi/vayu" name="GXC2356/android_vendor_xiaomi_vayu.git" remote="github" revision="reloaded" />
- <project path="kernel/xiaomi/vayu" name="raghavt20/kernel_sm8150" remote="github" revision="topaz-new" />
+ <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="github" revision="reloaded" />
+ <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="github" revision="reloaded" />
+ <project path="kernel/xiaomi/vayu" name="kernel_sm8150" remote="github" revision="topaz-new" />
 
 <!-- Hardware -->
-<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-20" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="github" revision="lineage-20" />
 
 <!-- Hals -->
 <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
