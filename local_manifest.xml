@@ -4,7 +4,7 @@
 <!-- Remotes -->
 	<remote name="github" fetch="https://github.com/GXC2356" />
 	<remote name="gitlab" fetch="https://gitlab.com/gxcdev2356" />
-        <remote name="cl-404lab" fetch="https://github.com/cl-404lab" />
+        <remote name="cl-404lab" fetch="https://github.com/p404-vayu" />
 	
  <!-- Trees -->
  <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="github" revision="reloaded" />
